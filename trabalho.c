@@ -215,11 +215,12 @@ int main() {
                                 
                             setbuf(stdin, NULL);   
 
-                            printf("\nInforme a media da disciplina %s: ", novoAluno.materia[i]);
+                            printf("\nInforme a media da disciplina %s: ", novoAluno.materia[i].nome);
                             scanf(" %f", &novoAluno.materia[i].media);
                         }
                             
-                        ra = 0;
+                       //atribuindo 0 ao RA para caso haja uma exclusão, armazenar na posição do aluno excluido que por sua vez tem o ra = 0
+                        ra = 0; 
 
                     //Valida se ha algum aluno com informação deletada para usar o seu indice como um novo repositorio de registro
                         if (encontrarAluno(alunos, ra, numRegistrosFeitos) >= 0){
