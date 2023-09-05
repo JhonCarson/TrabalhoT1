@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Jhomany Carson/Documents/Meus Arquivos/Univel/GitHub/Projetos-C/TrabalhoT1",
-      "program": "c:/Users/Jhomany Carson/Documents/Meus Arquivos/Univel/GitHub/Projetos-C/TrabalhoT1/build/Debug/outDebug",
+      "cwd": "c:/Users/jhoma/OneDrive/Documentos/Univel/Algoritmos/Projeto-C/ListasExercicios-C/TrabalhoT1",
+      "program": "c:/Users/jhoma/OneDrive/Documentos/Univel/Algoritmos/Projeto-C/ListasExercicios-C/TrabalhoT1/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
